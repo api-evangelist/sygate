@@ -1,8 +1,25 @@
 aid: sygate
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sygate.png
 name: Sygate
-description: 'Sygate is a company surfaced as a portfolio company of trinity-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: security. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Sygate Technologies was an endpoint-security software company founded in 1995 in Fremont,
+  California, and backed by Trinity Ventures among other investors. Its products included enterprise
+  server and end-user firewalls (Sygate Personal Firewall), automated network discovery, network access
+  control (NAC), and security monitoring. Symantec acquired Sygate in 2005 for its Universal Network
+  Access Control technology; the end-user products were subsequently discontinued and the enterprise NAC
+  technology folded into Symantec (now Gen Digital). Sygate is a defunct entity with no active company
+  website, developer portal, or public API surface; this profile is retained as a historical
+  VC-portfolio lead.'
 url: https://raw.githubusercontent.com/api-evangelist/sygate/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +29,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Security
+- Endpoint Security
+- Firewall
+- Network Access Control
+- Defunct
+- Acquired
+x-status: defunct
+x-acquired-by: symantec
+x-acquired-year: 2005
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: 'Defunct company (acquired by Symantec 2005, products discontinued); no live domain, developer
+    portal, or API surface to enrich. Identity facts verified via web search; domain sygate.com returns
+    an invalid TLS certificate and no company site.'
